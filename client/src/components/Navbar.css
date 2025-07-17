@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #1f2937;
+  padding: 15px 30px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+  color: #f9fafb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #60a5fa;
+}

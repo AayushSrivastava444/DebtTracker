@@ -1,0 +1,54 @@
+.add-debt-form {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.add-debt-form h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+
+.add-debt-form label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.add-debt-form input,
+.add-debt-form select {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1.5px solid #d1d5db;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.add-debt-form input:focus,
+.add-debt-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 5px #2563ebaa;
+}
+
+.add-debt-form button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-debt-form button:hover {
+  background-color: #1e40af;
+}
